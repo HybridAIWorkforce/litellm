@@ -19,7 +19,7 @@ dependencies = [
     "tokenizers==0.22.2",
     "click==8.1.8",
     "jinja2==3.1.6",
-    "aiohttp==3.13.4",
+    "aiohttp==3.14.3",
     "pydantic==2.12.5",
     "jsonschema==4.23.0",
 ]
@@ -51,7 +51,7 @@ proxy = [
     "boto3==1.42.59",
     "azure-identity==1.25.2",
     "azure-storage-blob==12.28.0",
-    "mcp==1.26.0",
+    "mcp==2.2.0",
     "litellm-proxy-extras==0.4.69",
     "litellm-enterprise==0.1.39",
     "RestrictedPython==8.1",
@@ -81,7 +81,7 @@ semantic-router = [
     "semantic-router==0.1.12; python_version < '3.14'",
     "aurelio-sdk==0.0.19; python_version < '3.14'",
 ]
-mlflow = ["mlflow==3.11.1"]
+mlflow = ["mlflow==3.16.0"]
 grpc = [
     # Newest non-yanked release older than the 30-day cutoff.
     "grpcio==1.78.0",
